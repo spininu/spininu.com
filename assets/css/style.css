@@ -1086,14 +1086,12 @@ h1 {
 
 /*noinspection CssUnknownTarget*/
 .nav-black-desktop .footer-bg {
-    background-image: url("/wp-content/themes/toka/assets/img/bg-white.png");
     background-position: center center;
     background-size: cover;
 }
 
 /*noinspection CssUnknownTarget*/
 .nav-white-desktop .footer-bg {
-    background-image: url("/wp-content/themes/toka/assets/img/bg-black.png");
     background-position: center center;
     background-size: cover;
 }
@@ -1110,7 +1108,6 @@ h1 {
 #main-header {
     overflow: hidden;
     background: var(--header-bg-color);
-    background-image: url(/wp-content/themes/toka/assets/img/bg-black.png);
     background-position: center center;
     background-size: cover;
 }
