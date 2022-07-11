@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #b00b23;
+    --primary-links-hover-color: #b00b23;
+    --primary-bg-color: #1c222b;
+    --header-bg-color: #1c222b;
+    --footer-bg-color: #f8f8f8;
+    --primary-dark-color: #b6bdc5;
+    --title-color: #ffffff;
+    --fw-title-color: #1a1a1a;
+    --btn-bg-color: #b00b23;
+    --btn-hover-color: #1a5e49;
+    --txt-select-bg-color: #f3d7f463;
+}
+
+#main-header,
+#site-footer {
+    position: relative;
+}
+
+@media (min-width: 1200px) {
+
+    #main-header+#site-content,
+    #main-header+#site-content-wrap-grow,
+    #main-header+#primary,
+    #main-header+main {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    #main-header+#site-content,
+    #main-header+#site-content-wrap-grow,
+    #main-header+#primary,
+    #main-header+main {
+        padding-top: 32px;
+    }
+}
+
+#header-wave {
+    margin-bottom: -1px;
+    width: 100%;
+}
+
+#magic-search .search-submit {
+    display: none;
+}
+
+.onsale .onsale-svg {
+    height: 100%;
+}
+
+#header-wave * {
+    fill: transparent;
+}
+
+@media (max-width: 1199px) {
+    #header-wave {
+        height: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #header-wave {
+        height: 45px;
+    }
+
+    :root #main-header {
+        padding-top: 50px;
+    }
+}
+
+.header-icons {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .header-info {
+        margin-top: 1rem;
+    }
+}
