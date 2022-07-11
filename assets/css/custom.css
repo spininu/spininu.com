@@ -2231,7 +2231,7 @@ h1.entry-title {
     border-width: 2px;
     border-color: rgb(218, 176, 89);
     border-radius: 0px;
-    box-shadow: rgb(251, 252, 255) 10px 10px 0px 0px;
+    box-shadow: rgb(219 184 90) 3px 3px 5px 1px;
     padding: 17px 30px;
     transition: all 1s ease 0s;
     background-image: linear-gradient(135deg, rgb(250, 204, 47) 0%, rgb(255, 238, 136) 38%, rgb(207, 165, 75) 66%, rgb(211, 173, 83) 100%) !important;
@@ -4660,6 +4660,10 @@ body.rtl .elementor-22627 .elementor-element.elementor-element-66b3252 {
         width: 100%;
         padding: 0 20px;
     }
+    .mb-center{
+        margin: 0 auto;
+    }
+
 }
 .icon-64{
     width: 64px;

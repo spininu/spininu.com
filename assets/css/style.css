@@ -7536,7 +7536,9 @@ body .ngg-galleryoverview {
     background: black
 }
 .logo-text-sd{
-    text-shadow: 9px 9px 0px #fad950;
+    background: linear-gradient(to left, rgb(255, 255, 255) 0%, rgb(251, 223, 99) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* end AUDIO */
 /* ============================================================================================================== */
