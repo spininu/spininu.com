@@ -4672,10 +4672,8 @@ body.rtl .elementor-22627 .elementor-element.elementor-element-66b3252 {
 }
 
 .roadmap-spin{
-    border: 1px solid white !important;
+    border: 1px solid black !important;
     padding: 10px;
-    background: linear-gradient(
-45deg, #aa7e26, transparent);
 }
 
 .card.bg-hightlight {
