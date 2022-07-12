@@ -2129,7 +2129,7 @@ h1.entry-title {
 
 .elementor-22627 .elementor-element.elementor-element-bdd667b:not(.elementor-motion-effects-element-type-background),
 .elementor-22627 .elementor-element.elementor-element-bdd667b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background: black;
+    background: linear-gradient(182deg, #000000 0%,#004aad 45%, #ffffff 100%);
 }
 
 .elementor-22627 .elementor-element.elementor-element-bdd667b>.elementor-background-overlay {
@@ -2229,17 +2229,17 @@ h1.entry-title {
     color: rgb(92, 0, 0);
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(218, 176, 89);
-    border-radius: 0px;
-    box-shadow: rgb(219 184 90) 3px 3px 5px 1px;
+    border-radius: 0;
     padding: 17px 30px;
     transition: all 1s ease 0s;
-    background-image: linear-gradient(135deg, rgb(250, 204, 47) 0%, rgb(255, 238, 136) 38%, rgb(207, 165, 75) 66%, rgb(211, 173, 83) 100%) !important;
+    background: none;
+    color: white;
 }
 
 .elementor-22627 .elementor-element.elementor-element-a765afa .elementor-button:hover,
 .elementor-22627 .elementor-element.elementor-element-a765afa .elementor-button:focus {
     background-image: linear-gradient(135deg, rgb(251, 247, 236) 0%, rgb(253, 252, 248) 38%, rgb(254, 252, 248) 66%, rgb(211, 173, 83) 100%) !important;
+    color: black;
 }
 
 .elementor-22627 .elementor-element.elementor-element-a765afa>.elementor-widget-container {
@@ -2501,9 +2501,6 @@ body.rtl .elementor-22627 .elementor-element.elementor-element-5b8037c {
 }
 
 .elementor-22627 .elementor-element.elementor-element-6665a0e>.elementor-element-populated {
-    border-style: solid;
-    border-width: 1px 0px 0px;
-    border-color: rgba(221, 222, 225, 0.47);
     transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;
 }
 
@@ -2954,7 +2951,8 @@ body.rtl .elementor-22627 .elementor-element.elementor-element-5b8037c {
 
 .elementor-22627 .elementor-element.elementor-element-095c0f8:not(.elementor-motion-effects-element-type-background),
 .elementor-22627 .elementor-element.elementor-element-095c0f8>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: rgb(171, 124, 41);
+    background-color: rgb(255 255 255);
+    box-shadow: 0px 0px 20px #8a7041;
 }
 
 .elementor-22627 .elementor-element.elementor-element-095c0f8,
@@ -3251,8 +3249,7 @@ body.rtl .elementor-22627 .elementor-element.elementor-element-66b3252 {
 
 .elementor-22627 .elementor-element.elementor-element-e09e5e1:not(.elementor-motion-effects-element-type-background),
 .elementor-22627 .elementor-element.elementor-element-e09e5e1>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: linear-gradient(
-135deg, rgb(255 255 255) 0%, rgb(255, 238, 136) 38%, rgb(207, 165, 75) 66%, rgb(211, 173, 83) 100%) !important;
+    background-image: linear-gradient(179deg, rgb(0 0 0) 0%, rgb(0 0 0),rgb(171 124 41), rgb(255, 238, 136),rgb(255, 238, 136) 38%, rgb(255 254 248) 56%, rgb(255 255 255) 100%) !important;
 }
 
 .elementor-22627 .elementor-element.elementor-element-e09e5e1 {
@@ -4663,6 +4660,9 @@ body.rtl .elementor-22627 .elementor-element.elementor-element-66b3252 {
     .mb-center{
         margin: 0 auto;
     }
+    .elementor-widget-wrap.elementor-element-populated.doge-overview::before{
+    height: 0;
+    }
 
 }
 .icon-64{
@@ -4700,4 +4700,14 @@ body.rtl .elementor-22627 .elementor-element.elementor-element-66b3252 {
     background: linear-gradient(to left, rgb(255, 255, 255) 0%, rgb(255 205 0) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+section.elementor-section.section-overview::before {
+    content: "";
+    background-image: url('../images/background-bottom.png');
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: -70px;
+    width: 100%;
 }
